@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        src/command.c
+    PRIV_INCLUDE_DIRS
+        src
+    INCLUDE_DIRS
+        include
+    PRIV_REQUIRES
+    REQUIRES
+)

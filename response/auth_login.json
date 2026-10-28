@@ -1,0 +1,32 @@
+{
+    "type": 1,
+    "action": 0,
+    "status": 0,
+    "data": [
+        {
+            "type": 2,
+            "action": 0,
+            "status": 0,
+            "data": {
+                "ssid": "esp32c3",
+                "password": "12345678",
+                "ip_address": "192.168.4.1",
+                "netmask": "255.255.255.0",
+                "gateway": "192.168.4.1",
+                "clients": [
+                    {
+                        "mac": "80:56:F2:FC:16:7F",
+                        "ip_address": "192.168.4.2",
+                        "hostname": "x-host"
+                    }
+                ]
+            }
+        },
+        {
+            "type": 3,
+            "action": 3,
+            "status": 0,
+            "data": null
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+idf_component_register(
+    SRCS
+        src/wifi.c
+        src/wifi/ap.c
+        src/wifi/sta.c
+    PRIV_INCLUDE_DIRS
+        src
+    INCLUDE_DIRS
+        include
+    PRIV_REQUIRES
+        cjson
+        command
+        esp_wifi
+    REQUIRES
+)
